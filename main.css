@@ -50,6 +50,16 @@ body {
 
 .fotologo {
 	max-width: 20%;
+	animation-duration: 5s;
+	animation-name: aparecer;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes aparecer {
+	0% { opacity: 0;}
+	100% { opacity: 2;}
+
 }
 
 .fotosunidas {
