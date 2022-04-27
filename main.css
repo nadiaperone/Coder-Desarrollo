@@ -64,19 +64,22 @@ body {
 
 h3 {
 	background-image: linear-gradient( #829e2b, #d4dc9b);
+	background-size: cover;
 	font-family: "Heebo", sans-serif;
 	font-weight: bold;
 	color: white;
 	text-align: center;
 	padding: 1%;
-	margin: 1%;
+	margin: 0%;
 	text-decoration: none;
 }
 
 form {
+	width: 20%;
 	box-sizing: border-box;
 	border-radius: 5%;
-	padding: 0% 100%;
+	padding: 0% 0%;
+	transform: translate( 60%, 20%);
 }
 
 .formulario {
@@ -106,13 +109,14 @@ li {
 .copyright {
 	color: black;
 	background-image: linear-gradient( #829e2b, #d4dc9b);
+	background-size: cover;
 	font-family: "Heebo", sans-serif;
 	font-size: 11px;
 	text-align: center;
 	margin: 0% 0%;
 	padding: 2%;
 	position: relative;
-	top: 8%;
+	top: 50%;
 }
 
 hr {
@@ -136,14 +140,28 @@ hr {
 	display: grid;
 	grid-template-columns: 50% 50%;
 	grid-column-gap: 10px;
+	position: relative;
+	padding-top: 1%;
+	padding-left: 10%;
+	padding-bottom: 1%;
 }
 
 .shitscolection {
-	position: relative;
-	padding-top: 40px;
-	padding-left: 80px;
+
+	display: grid;
+	grid-template-columns: max-content;
+	
 	width: 300px;
-	height: 300px;
+
+}
+
+.descripcionproducto p {
+
+	font-family: "Heebo", sans-serif;
+	font-weight: lighter;
+	color: white;
+	font-size: 12px;
+	box-sizing: 10%;
 }
 
 @media screen and (max-width: 320px) {
@@ -158,12 +176,13 @@ hr {
 	}
 
 	.fotologo {
-		width: 60%;
+		width: 70%;
 		
 	}
 }
 
 @media screen and (max-width: 576px) { 
+	
 
 }
 
