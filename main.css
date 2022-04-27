@@ -1,0 +1,165 @@
+body {
+	text-align: center;
+}
+
+h4 {
+	color: white;
+	background-color: black;
+	font-family: "Heebo", sans-serif;
+	font-size: 18px;
+	text-align: center;
+	padding: 0%;
+	margin: 0%;
+}
+
+.linksnav ul a {
+	padding: 15px;
+	text-decoration: none;
+	color: white;
+}
+.linksnav ul a:hover {
+	color: #b8be49;
+}
+
+h5 {
+	color: white;
+	font-family: "Heebo", sans-serif;
+	font-size: 14px;
+}
+
+.texto-futuro {
+	color: white;
+	font-family: "Heebo", sans-serif;
+	font-size: 70px;
+	margin: 0px;
+	position: absolute;
+	top: 140%;
+}
+
+body {
+	background-color: black;
+}
+
+.fotologo {
+	max-width: 20%;
+}
+
+.fotosunidas {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	flex-direction: row;
+}
+
+
+
+h3 {
+	background-color: #b8be49;
+	font-family: "Heebo", sans-serif;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	padding: 1%;
+	margin: 1%;
+	text-decoration: none;
+}
+
+form {
+	box-sizing: border-box;
+	border-radius: 5%;
+	padding: 0% 100%;
+}
+
+.formulario {
+	width: 30%;
+	height: auto;
+	padding: 2% 10%;
+}
+
+.columnas {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+.column {
+	color: white;
+	background-color: black;
+	font-family: "Heebo", sans-serif;
+	font-size: 14px;
+	padding: 2% 5%;
+	margin: 2% 5%;
+}
+
+li {
+	list-style-type: none;
+}
+
+.copyright {
+	color: black;
+	background-color: #d4dc9b;
+	font-family: "Heebo", sans-serif;
+	font-size: 11px;
+	text-align: center;
+	margin: 0% 0%;
+	padding: 2%;
+	position: relative;
+	top: 8%;
+}
+
+hr {
+	border: solid 2px white;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.nosotrosgm {
+	color: black;
+	background-color: #d4dc9b;
+	font-size: 14px;
+	font-family: "Heebo", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding: 80px;
+	margin: 20px;
+}
+
+.videos {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 10px;
+}
+
+.shitscolection {
+	position: relative;
+	padding-top: 40px;
+	padding-left: 80px;
+	width: 300px;
+	height: 300px;
+}
+
+@media screen and (max-width: 320px) {
+	.texto-futuro {
+		font-size: 10%;
+		position: absolute;
+	}
+
+	.fotosunidas img {
+		width: 50%;
+		
+	}
+
+	.fotologo {
+		width: 60%;
+		
+	}
+}
+
+@media screen and (max-width: 576px) { 
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+}
