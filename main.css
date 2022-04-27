@@ -33,7 +33,15 @@ h5 {
 	font-size: 70px;
 	margin: 0px;
 	position: absolute;
-	top: 140%;
+	top: 180%;
+	animation-duration: 3s;
+	animation-name: aparecer;
+	animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+	0% { opacity: 0;}
+	100% { opacity: 2;}
 }
 
 body {
