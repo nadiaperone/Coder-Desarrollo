@@ -54,6 +54,7 @@ body {
 	animation-name: aparecer;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
+	
 }
 
 @keyframes aparecer {
@@ -174,10 +175,10 @@ hr {
 	}
 
 	.tienda {
-		box-sizing: 80%;
 		padding: 3%;
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(3, 1fr); 
+		
 
 	}
 @media screen and (max-width: 320px) {
