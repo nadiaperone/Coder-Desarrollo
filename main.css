@@ -1,6 +1,8 @@
 body {
 	text-align: center;
-}
+	background-size: cover;
+} 
+
 
 h4 {
 	color: white;
@@ -30,10 +32,10 @@ h5 {
 .texto-futuro {
 	color: white;
 	font-family: "Heebo", sans-serif;
-	font-size: 70px;
+	font-size: 100px;
 	margin: 0px;
 	position: absolute;
-	top: 180%;
+	top: 200%;
 	animation-duration: 3s;
 	animation-name: aparecer;
 	animation-iteration-count: infinite;
@@ -178,13 +180,15 @@ hr {
 		padding: 3%;
 		display: grid;
 		grid-template-columns: repeat(3, 1fr); 
+		grid-column-gap: 1%;
+		background-size: cover;
 		
 
 	}
 @media screen and (max-width: 320px) {
 	.texto-futuro {
-		font-size: 10%;
-		position: absolute;
+		font-size: 24px;
+		
 	}
 
 	.fotosunidas img {
