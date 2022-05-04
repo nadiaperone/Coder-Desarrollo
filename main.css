@@ -23,6 +23,22 @@ h4 {
 	color: #b8be49;
 }
 
+.linkspages li a { 
+	color: white;
+	text-decoration: none;
+}
+
+.linkspages {
+	color: white;
+	font-size: 14px;
+	text-align: left;
+}
+
+.linkspages li a:hover {
+
+	color: #b8be49;
+}
+
 h5 {
 	color: white;
 	font-family: "Heebo", sans-serif;
@@ -85,6 +101,8 @@ h3 {
 	padding: 1%;
 	margin: 0%;
 	text-decoration: none;
+	font-size: 18px;
+
 }
 
 form {
@@ -143,6 +161,13 @@ li {
 	
 }
 
+.formatopages {
+
+	color: white;
+	width: 60%;
+	padding: 2%;
+
+}
 hr {
 	border: solid 2px white;
 	margin-top: 50px;
