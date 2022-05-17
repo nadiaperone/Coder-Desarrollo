@@ -1,5 +1,6 @@
 Sass + Seo
 
+-Use extend en el formato de coleccion.
 -Use mixin para darle formato al formulario de la page Ingresar.
 -Sume en cada html el favicom con res 16x16mp.
 -Agregue keywords: Green Mind, shits, hoodies, remeras, buzos, buzo, remera, shit, hoodie, ropa, clothes, 
