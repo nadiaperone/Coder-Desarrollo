@@ -34,6 +34,7 @@ form {
   padding: 2% 10%; }
 
 .ingresarform {
+  background-color: black;
   width: 35%;
   height: 20%;
   margin-left: 30%;
@@ -122,18 +123,6 @@ h3 {
   text-decoration: none;
   font-size: 18px; }
 
-form {
-  box-sizing: border-box;
-  border-radius: 5%;
-  width: 50%;
-  height: auto;
-  padding: 2% 40%; }
-
-.formulario {
-  width: 30%;
-  height: auto;
-  padding: 2% 10%; }
-
 .columnas {
   display: grid;
   grid-template-columns: 33% 33% 33%; }
@@ -148,15 +137,6 @@ form {
 
 li {
   list-style-type: none; }
-
-.ingresarform {
-  width: 35%;
-  height: 20%;
-  margin-left: 30%;
-  margin-top: 8%;
-  margin-bottom: 8%;
-  color: white;
-  padding: 2%; }
 
 .formatopages {
   color: white;

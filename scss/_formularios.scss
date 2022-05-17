@@ -13,8 +13,13 @@ form {
 	padding: 2% 10%;
 }
 
-.ingresarform {
-	width: 35%;	
+
+
+//mixin
+
+@mixin formulario_personalizado($fondo: black) {
+    background-color: $base-color;
+    width: 35%;	
 	height: 20%;
 	margin-left: 30%;
 	margin-top: 8%;
@@ -22,7 +27,11 @@ form {
 	color: white;
 	padding: 2%;
     box-shadow: 2px 2px 3px white;
-    
-	
 }
+
+    .ingresarform {
+        @include formulario_personalizado($fondo:yelloW);
+    }
+    
+
 
