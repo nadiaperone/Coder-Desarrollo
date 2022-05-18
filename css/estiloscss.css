@@ -102,6 +102,10 @@ body {
   font-size: 14px;
   text-align: left; }
 
+.linkspages img {
+  width: 20px;
+  padding: 2px; }
+
 .linkspages li a:hover {
   color: #b8be49; }
 
@@ -179,14 +183,11 @@ hr {
   width: 100%; }
 
 .nosotrosgm {
-  color: black;
-  background-color: #d4dc9b;
-  font-size: 14px;
+  color: white;
+  font-size: 16px;
   font-family: "Heebo", sans-serif;
-  font-weight: bold;
   text-align: center;
-  padding: 80px;
-  margin: 20px; }
+  padding: 50px; }
 
 .videos {
   display: grid;
