@@ -17,3 +17,16 @@
         line-height: 66px;
 	}
 }
+
+.iconsrs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+    img {
+        padding: 5px 20px;
+    }
+
+    
+}
