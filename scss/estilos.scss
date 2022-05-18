@@ -2,6 +2,8 @@
 @import "fondo";
 @import "h3";
 @import "formularios";
+@import "coleccion";
+@import "socialmediaicons";
 
 
 body {
@@ -158,32 +160,7 @@ hr {
 	padding-bottom: 1%;
 }
 
-.shirtscolection {
-	
-	width: 300px;
-	padding: 2%;
 
-}
-
-.descripcionproducto p {
-
-	font-family: "Heebo", sans-serif;
-	font-weight: lighter;
-	color: white;
-	font-size: 12px;
-	box-sizing: 10%;
-	}
-
-	.tienda {
-		padding: 3%;
-		display: grid;
-		grid-template-columns: repeat(3, 1fr); 
-		grid-column-gap: 1%;
-		background-size: cover;
-		
-		
-
-	}
 
 @media screen and (max-width: 320px) {
 
