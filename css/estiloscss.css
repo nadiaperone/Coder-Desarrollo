@@ -175,6 +175,7 @@ main .formatopages {
   width: 100%;
   height: 30%;
   align-content: center;
+  text-align: left;
   padding: 10%;
   margin: 10px; }
 
@@ -199,8 +200,12 @@ hr {
   padding-bottom: 1%; }
 
 @media screen and (max-width: 320px) {
+  h3 {
+    font-size: 10px; }
   .linkspages {
-    font-size: 8px; } }
+    font-size: 10px; }
+  .formatopages {
+    font-size: 12px; } }
 
 @media screen and (max-width: 576px) {
   .linksnav {
@@ -210,4 +215,10 @@ hr {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 1%;
-    background-size: cover; } }
+    background-size: cover; }
+  h3 {
+    font-size: 12px; } }
+
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 16px; } }
