@@ -181,20 +181,16 @@ hr {
 	.formatopages { 
 		font-size: 12px;
 	}
+
+	.descripcionproducto p {
+		font-size: 8px;
+	}
 }
 
 @media screen and (max-width: 576px) { 
 	.linksnav {
 		font-size: 14px;
 	}
-
-	.tienda {
-		padding: 3%;
-		display: grid;
-		grid-template-columns: repeat(2, 1fr); 
-		grid-column-gap: 1%;
-		background-size: cover;
-			}
 
 	h3 {
 		font-size: 12px;

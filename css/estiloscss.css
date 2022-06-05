@@ -39,18 +39,25 @@ h3 a :hover {
   width: 300px;
   padding: 2%; }
 
+.descripcionproducto h5 {
+  padding: 5%;
+  font-weight: bold; }
+
 .descripcionproducto p {
   font-family: "Heebo", sans-serif;
   font-weight: lighter;
   color: white;
   font-size: 12px;
-  box-sizing: 10%; }
+  box-sizing: 10%;
+  padding: 3%; }
+
+.descripcionproducto .precio {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0%; }
 
 .tienda {
   padding: 5%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 1%;
   background-size: cover; }
 
 .whatsapp {
@@ -205,17 +212,13 @@ hr {
   .linkspages {
     font-size: 10px; }
   .formatopages {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .descripcionproducto p {
+    font-size: 8px; } }
 
 @media screen and (max-width: 576px) {
   .linksnav {
     font-size: 14px; }
-  .tienda {
-    padding: 3%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 1%;
-    background-size: cover; }
   h3 {
     font-size: 12px; } }
 

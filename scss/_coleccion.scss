@@ -5,21 +5,37 @@
 
 }
 
-.descripcionproducto p {
+.descripcionproducto  {
 
-	font-family: "Heebo", sans-serif;
-	font-weight: lighter;
-	color: white;
-	font-size: 12px;
-	box-sizing: 10%;
-    
+	h5 {
+		padding: 5%;
+		font-weight: bold;
 	}
+
+	p {
+
+		font-family: "Heebo", sans-serif;
+		font-weight: lighter;
+		color: white;
+		font-size: 12px;
+		box-sizing: 10%;
+		padding: 3%;
+	
+		
+		}
+
+		.precio {
+			font-weight: bold;
+			font-size: 14px;
+			padding: 0%;
+		}
+}
+
+
+
 
 	.tienda {
 		padding: 5%;
-		display: grid;
-		grid-template-columns: repeat(3, 1fr); 
-		grid-column-gap: 1%;
 		background-size: cover;
 		
 		
