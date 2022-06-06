@@ -1,6 +1,5 @@
 @import "footer";
 @import "fondo";
-@import "h3";
 @import "formularios";
 @import "coleccion";
 @import "socialmediaicons";
@@ -101,7 +100,10 @@ h3 {
 	padding: 1%;
 	margin: 0%;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: medium;
+	a:hover {
+		color: #020202;
+	}	
 
 }
 
@@ -153,26 +155,15 @@ hr {
 	font-size: 16px;
 	font-family: "Heebo", sans-serif;
 	text-align: center;
-	padding: 50px;
+	padding: 5%;
 }
 
 .videos {
-	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-column-gap: 10px;
-	position: relative;
-	padding-top: 1%;
-	padding-left: 10%;
-	padding-bottom: 1%;
+	padding: 5% 10%;
 }
 
 
-
 @media screen and (max-width: 320px) {
-
-	h3 {
-		font-size: 10px;
-	}
 
 	.linkspages {
 		font-size: 10px;
@@ -185,6 +176,17 @@ hr {
 	.descripcionproducto p {
 		font-size: 8px;
 	}
+
+	h3 { font-size: small;}
+
+	.ingresarform {
+		font-size: 8px;
+	}
+
+	.nosotrosgm {
+		font-size: 10px;
+		padding: 10%;
+	}
 }
 
 @media screen and (max-width: 576px) { 
@@ -192,9 +194,6 @@ hr {
 		font-size: 14px;
 	}
 
-	h3 {
-		font-size: 12px;
-	}
 }
 
 
