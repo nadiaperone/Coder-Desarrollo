@@ -189,13 +189,19 @@ hr {
 	}
 
 	.videos iframe {
-		width: 20%;
+		width: 100px;
+		height: 60px;
 	}
 }
 
 @media screen and (max-width: 576px) { 
 	.linksnav {
 		font-size: 14px;
+	}
+
+	.videos iframe {
+		width: 160px;
+		height: 90px;
 	}
 
 }
