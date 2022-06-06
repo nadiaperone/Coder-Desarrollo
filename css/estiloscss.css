@@ -6,9 +6,7 @@
   font-size: 12px;
   text-align: center;
   margin: 0% 0%;
-  padding: 2%;
-  position: relative;
-  top: 50%; }
+  padding: 2%; }
 
 /*variables*/
 body {
@@ -181,6 +179,9 @@ main .formatopages {
   padding: 10%;
   margin: 10px; }
 
+.videos {
+  padding: 5% 10%; }
+
 hr {
   border: solid 2px white;
   width: 100%; }
@@ -191,9 +192,6 @@ hr {
   font-family: "Heebo", sans-serif;
   text-align: center;
   padding: 5%; }
-
-.videos {
-  padding: 5% 10%; }
 
 @media screen and (max-width: 320px) {
   .linkspages {
@@ -208,7 +206,9 @@ hr {
     font-size: 8px; }
   .nosotrosgm {
     font-size: 10px;
-    padding: 10%; } }
+    padding: 10%; }
+  .videos iframe {
+    width: 20%; } }
 
 @media screen and (max-width: 576px) {
   .linksnav {

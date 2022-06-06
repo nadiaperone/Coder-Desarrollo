@@ -143,6 +143,9 @@ main {
 	}
 }
 
+.videos {
+	padding: 5% 10%;
+}
 
 
 hr {
@@ -158,9 +161,6 @@ hr {
 	padding: 5%;
 }
 
-.videos {
-	padding: 5% 10%;
-}
 
 
 @media screen and (max-width: 320px) {
@@ -186,6 +186,10 @@ hr {
 	.nosotrosgm {
 		font-size: 10px;
 		padding: 10%;
+	}
+
+	.videos iframe {
+		width: 20%;
 	}
 }
 
